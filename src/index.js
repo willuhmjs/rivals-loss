@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { Builder, Browser, By, Key, until } = require('selenium-webdriver');
+const { Builder, Browser } = require('selenium-webdriver');
 const fs = require("fs");
 const https = require('https');
 const firefox = require('selenium-webdriver/firefox'); 
