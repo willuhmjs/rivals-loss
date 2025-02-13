@@ -2,9 +2,9 @@ require('dotenv').config();
 const { Builder, Browser, By, Key, until } = require('selenium-webdriver');
 const fs = require("fs");
 const https = require('https');
-const firefox = require('selenium-webdriver/firefox'); // Add this line
+const firefox = require('selenium-webdriver/firefox'); 
 
-const options = new firefox.Options(); // Add this line
+const options = new firefox.Options(); 
 
 const getStats = (user) => {
     const filePath = `${user}.txt`;
