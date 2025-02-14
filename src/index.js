@@ -102,7 +102,7 @@ const scanAllUsers = async () => {
 
 const startScanning = () => {
     scanAllUsers();
-    setInterval(scanAllUsers, 5 * 60 * 1000); // 5 minutes interval
+    setInterval(scanAllUsers, 30 * 60 * 1000); // 30 minutes interval
 }
 
 startScanning();
